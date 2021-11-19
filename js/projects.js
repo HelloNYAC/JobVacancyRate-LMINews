@@ -81,7 +81,7 @@ $(document).ready(function() {
 
 			}
 		}
-		return paramObj
+		return paramObj;
 	}
 
 	let vectorID = '104273109'

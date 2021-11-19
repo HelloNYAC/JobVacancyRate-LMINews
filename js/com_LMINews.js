@@ -1,41 +1,40 @@
 $(function() {
 	let data = ''
 	if (getUrlParam()) {
-		data = getUrlParam().data
-		data = decodeURIComponent(data)
-		data = JSON.parse(data)
+		data = getUrlParam().data;
+		data = decodeURIComponent(data);
+		data = JSON.parse(data);
 		// console.log(data)
 	}
-	const productId = 14100326
+	const productId = 14100326;
 
 
+	var startdate= data.startdate||'2021-01-01';
+	var enddate= data.enddate||'2021-11-01';
+	var keyWord= data.keyWord;
 
-	var startdate= data.startdate||'2021-01-01'
-	var enddate= data.enddate||'2021-11-01'
-	var keyWord= data.keyWord
 
-	
-	var paramStr = "&from_date.gt="+(startdate||'2021-01-01')
-	paramStr+="&from_date.lt="+(enddate||'2021-11-01')
+	var paramStr = "&from_date.gt="+(startdate||'2021-01-01');
+	paramStr+="&to_date.lt="+(enddate||'2022-01-01');
 	if(keyWord){
-		paramStr +="&title_en=*"+keyWord+"*"
+		paramStr +="&title_en=*"+keyWord+"*";
 	}
-	console.log('--------paramStr--------')
-	console.log(paramStr)
+	console.log('--------paramStr--------');
+	console.log(paramStr);
 	getNews(paramStr, function(res) {
-		console.log('----------news--------')
-		console.log(res)
-		var data = res.data
+		console.log('----------news--------');
+		console.log(res);
+		var data = res.data;
 		// .filter(n=>{
 		// 	var pdate = n.publish_date.split(' ')[0]
 		// 	return pdate < enddate
 		// })
 		if(data&&data.length>0){
-			renderNews(data)
+			renderNews(data);
 		}else{
-			$('.newsDiv').html('There is no Data matching your search result. Please go back and select different search cretias!!')
+			$('.newsDiv').html('There is no Data matching your search result. Please go back and select different search criterias!');
 		}
-		
+
 	})
 })
 
@@ -52,7 +51,7 @@ function renderNews(data) {
 		'<p>publish_date: _publish_date</p>' +
 		'</a></div>'
 
-	$('.newsDiv').html('')
+	$('.newsDiv').html('');
 
 	data = data.sort(function(b, a) {
 		var x = a.publish_date
