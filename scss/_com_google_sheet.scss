@@ -1,0 +1,14 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex div {
+    padding: 4px;
+    border: 1px solid grey;
+}
+
+.flex div:hover {
+    background-color: grey;
+    color: white;
+}

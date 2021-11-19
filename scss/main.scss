@@ -1,0 +1,24 @@
+@import 'home', 'nav', 'manual', 'projects', 'reference', 'responsive', 'JVRbyIndustry', 'table', 'googlesheet', '_com_google_sheet', 'lminews';
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+img {
+    border: 0;
+}
+
+body {
+    position: relative;
+}
+
+#wb-footer {
+    margin-bottom: 20px;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+

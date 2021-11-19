@@ -1,0 +1,307 @@
+#navbar {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#navbar #wb-sm {
+  margin-top: 10px;
+}
+
+.manual_details {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.form-group {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 1.5rem;
+}
+
+.project_list {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.search_results-btn {
+  background-color: #335075;
+  color: aliceblue;
+  border-color: #335075;
+  margin-top: 15px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.4375;
+}
+
+.search-btn-project {
+  margin-right: 8px;
+}
+
+#project-list-title {
+  margin-left: 13px;
+}
+
+.reference-list {
+  margin-top: 20px;
+}
+
+.text-primary {
+  margin-top: 13px;
+}
+
+.followus {
+  margin-top: 50px;
+}
+
+.menu-btn {
+  visibility: hidden;
+}
+
+.nav {
+  visibility: visible;
+}
+
+.nav .menu-nav {
+  display: block;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  height: 100%;
+  background: transparent;
+  text-align: right;
+}
+
+.nav .menu-nav_item {
+  display: inline;
+  padding-right: 1.5rem;
+}
+
+.nav .menu-nav_link {
+  font-size: 1.5rem;
+}
+
+.about_bio {
+  font-size: 1.5rem;
+}
+
+.projects_bio-img {
+  height: 40vh;
+}
+
+.projects_items {
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.projects .text-secondary {
+  font-size: 3rem;
+}
+
+.contact_list {
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.projects_items {
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.contact_list {
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.projects_bio-img {
+  height: 50vh;
+}
+
+#jvrbyindustry {
+  margin-bottom: 10px;
+}
+
+#jvrbyindustry .jvrbyindustryrow {
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.new {
+  background-color: #e8f4d9;
+  color: #666;
+  margin: 10px;
+  padding: 20xp;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.shadow-blur {
+  position: relative;
+}
+
+.shadow-blur:before {
+  content: "";
+  display: block;
+  background: inherit;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  z-index: -1;
+  opacity: .4;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  border-radius: inherit;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.radius {
+  border-radius: 3px;
+}
+
+p {
+  margin: 0px 0px;
+}
+
+.fixed-table-loading {
+  display: none;
+}
+
+a:hover {
+  color: #ba2636;
+  text-decoration: none;
+}
+
+#news p {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flex div {
+  padding: 4px;
+  border: 1px solid grey;
+}
+
+.flex div:hover {
+  background-color: grey;
+  color: white;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flex div {
+  padding: 4px;
+  border: 1px solid grey;
+}
+
+.flex div:hover {
+  background-color: grey;
+  color: white;
+}
+
+.new {
+  background-color: #e8f4d9;
+  color: #666;
+  margin: 10px;
+  padding: 20xp;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.shadow-blur {
+  position: relative;
+}
+
+.shadow-blur:before {
+  content: "";
+  display: block;
+  background: inherit;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  z-index: -1;
+  opacity: .4;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  border-radius: inherit;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.radius {
+  border-radius: 3px;
+}
+
+p {
+  margin: 0px 0px;
+}
+
+.fixed-table-loading {
+  display: none;
+}
+
+a:hover {
+  color: #ba2636;
+  text-decoration: none;
+}
+
+#news p {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+img {
+  border: 0;
+}
+
+body {
+  position: relative;
+}
+
+#wb-footer {
+  margin-bottom: 20px;
+  position: relative;
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/theme.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<title>Project - Job Vacancy Rate and LMI News</title>
+	</head>
+	<body>
+		<div id="page_header">
+		</div>
+
+		<div id="nav-placeholder">
+		</div>
+
+		<main>
+			<section id="homepg-main">
+				<div class="region region-content">
+					<section id="block-system-main" class="block block-system clearfix">
+						<div class="container">
+							<div class="panel-display cudmore clearfix">
+								<div class="region-cudmore-top">
+									<div class="panel-pane pane-block pane-bean-homepage-banner">
+										<div class="pane-content"></div>
+									</div>
+									<div class="panel-separator"></div>
+									<div class="panel-pane pane-page-title">
+										<div class="pane-content">
+											<h1 id="wb-cont">
+												<span class="wb-inv"></span>Job Vacancy Rate and LMI
+												News
+											</h1>
+										</div>
+									</div>
+								</div>
+								<div class="cudmore-information row">
+									<div class="region-cudmore-description col-sm-6">
+										<div class="
+											panel-pane
+											pane-block pane-bean-homepage-description
+										  ">
+											<div class="pane-content">
+												<section>
+													<div class="
+														  field
+														  field-name-field-bean-wetkit-body
+														  field-type-text-long
+														  field-label-hidden
+														">
+														<div class="field-items">
+
+															<div class="project_list vacancyRate" style="width: 100%;">
+																<h3 id="project-list-title">Check Job Vacancy Rate by Industry</h3>
+																<div class="row">
+																	<div class="col-sm-12">
+																		<div class="form-group">
+																			<label for="naics-selector">NAICS (Industry)
+																			</label>
+																			<select class="form-control nacis-select-details"
+																				type="select">
+																			</select>
+																		</div>
+																		<div class="form-group">
+																			<label for="pt-selector">Province
+																			</label>
+																			<select class="form-control pt-select-details"
+																				type="select">
+																			</select>
+																		</div>
+																		<div class="form-group" style="display: none;">
+																			<label for="er-selector">Economic Region</label>
+																			<select class="form-control er-select-details"
+																				type="select">
+																			</select>
+																		</div>
+																		<div class="form-group btn-group" data-toggle="buttons">
+																			<label class="btn btn-primary ">
+																				<input type="radio" name="year" value="2015"
+																					autocomplete="off"> 2015
+																			</label>
+																			<label class="btn btn-primary ">
+																				<input type="radio" name="year" value="2016"
+																					autocomplete="off"> 2016
+																			</label>
+																			<label class="btn btn-primary ">
+																				<input type="radio" name="year" value="2017"
+																					autocomplete="off"> 2017
+																			</label>
+																			<label class="btn btn-primary ">
+																				<input type="radio" name="year" value="2018"
+																					autocomplete="off"> 2018
+																			</label>
+																			<label class="btn btn-primary ">
+																				<input type="radio" name="year" value="2019"
+																					autocomplete="off"> 2019
+																			</label>
+																			<label class="btn btn-primary">
+																				<input type="radio" name="year" value="2020"
+																					autocomplete="off">2020
+																			</label>
+																			<label class="btn btn-primary active">
+																				<input type="radio" name="year" value="2021"
+																					autocomplete="off"> 2021
+																			</label>
+																		
+																		</div>
+																		<div class="form-group" style="display: ;">
+																			<label for="startdate">Start Date<span
+																					class="datepicker-format">
+																					(<abbr
+																						title="Four digits year, dash, two digits month, dash, two digits day">YYYY-MM-DD</abbr>)</span></label>
+																			<input class="form-control startRefPeriod"
+																				type="date" value="2021-01-01" min="1990-03-27" value="2021-01-01"
+																				max="2022-01-01" />
+																		</div>
+																		<div class="form-group" style="display: ;">
+																			<label for="enddate">End Date<span
+																					class="datepicker-format">
+																					(<abbr
+																						title="Four digits year, dash, two digits month, dash, two digits day">YYYY-MM-DD</abbr>)</span></label>
+																			<input class="form-control endReferencePeriod"
+																				type="date" min="1990-03-27" value="2021-12-31"
+																				max="2022-01-01" />
+																		</div>
+																		<div class="form-group">
+																			<button id="jbvr-industry-btn"
+																				class="btn-primary search_results-btn"
+																				type="submit">
+																				<i
+																					class="fa fa-search search-btn-project"></i>Search
+																			</button>
+																		</div>
+																	</div>
+																</div>
+															</div>
+
+															<div class="project_list marketNews">
+																<h3 id="project-list-title">Check Job Vacancies by Industry</h3>
+																<div class="form-group">
+																			<label for="naics-selector">NAICS (Industry)
+																			</label>
+																	<select class="form-control nacis-select-details"
+																		type="select">
+																	</select>
+																</div>
+																<div class="form-group">
+																	<label for="pt-selector">Province
+																	</label>
+																	<select class="form-control pt-select-details"
+																		type="select">
+																	</select>
+																</div>
+																<div class="form-group" style="display: none;">
+																	<label for="er-selector">Economic Region</label>
+																	<select class="form-control er-select-details"
+																		type="select">
+																	</select>
+																</div>
+																<div class="form-group btn-group" data-toggle="buttons">
+																	<label class="btn btn-primary ">
+																		<input type="radio" name="year" value="2015"
+																			autocomplete="off"> 2015
+																	</label>
+																	<label class="btn btn-primary ">
+																		<input type="radio" name="year" value="2016"
+																			autocomplete="off"> 2016
+																	</label>
+																	<label class="btn btn-primary ">
+																		<input type="radio" name="year" value="2017"
+																			autocomplete="off"> 2017
+																	</label>
+																	<label class="btn btn-primary ">
+																		<input type="radio" name="year" value="2018"
+																			autocomplete="off"> 2018
+																	</label>
+																	<label class="btn btn-primary ">
+																		<input type="radio" name="year" value="2019"
+																			autocomplete="off"> 2019
+																	</label>
+																	<label class="btn btn-primary">
+																		<input type="radio" name="year" value="2020"
+																			autocomplete="off">2020
+																	</label>
+																	<label class="btn btn-primary active">
+																		<input type="radio" name="year" value="2021"
+																			autocomplete="off"> 2021
+																	</label>
+																
+																</div>
+																<div class="form-group" style="display: ;">
+																	<label for="startdate">Start Date<span
+																			class="datepicker-format">
+																			(<abbr
+																				title="Four digits year, dash, two digits month, dash, two digits day">YYYY-MM-DD</abbr>)</span></label>
+																	<input class="form-control startRefPeriod"
+																		type="date" value="2021-01-01" min="1990-03-27"
+																		max="2022-01-01" />
+
+																</div>
+																<div class="form-group" style="display: ;">
+																	<label for="enddate">End Date<span
+																			class="datepicker-format">
+																			(<abbr
+																				title="Four digits year, dash, two digits month, dash, two digits day">YYYY-MM-DD</abbr>)</span></label>
+																	<input class="form-control endReferencePeriod"
+																		type="date" value="2022-01-01" min="1990-03-27"
+																		max="2022-01-01" />
+																</div>
+																<div class="form-group">
+																	<button id="lmn-industry-btn"
+																		class="btn-primary search_results-btn"
+																		type="submit">
+																		<i
+																			class="fa fa-search search-btn-project"></i>Search
+																	</button>
+																</div>
+															</div>
+
+															<div class="project_list compare ">
+																<h3 id="project-list-title">Check Labour Market News By Month</h3>
+																<div class="form-group">
+																	<label for="naics-selector">Keyword Search
+																	</label>
+																	<input class="form-control nacis-select-details"
+																		id="keyWord" type="text">
+																	</input>
+																</div>
+																<div class="form-group">
+																	<label for="startdate">Start date<span
+																			class="datepicker-format">
+																			(<abbr
+																				title="Four digits year, dash, two digits month, dash, two digits day">YYYY-MM-DD</abbr>)</span></label>
+																	<input class="form-control" type="date"
+																		id="startdate" name="startdate" min="1990-03-27"
+																		value="2021-01-01" max="2023-07-16" />
+																</div>
+																<div class="form-group">
+																	<label for="enddate">End date<span
+																			class="datepicker-format">
+																			(<abbr
+																				title="Four digits year, dash, two digits month, dash, two digits day">YYYY-MM-DD</abbr>)</span></label>
+																	<input class="form-control" type="date" id="enddate"
+																		name="enddate" min="1990-03-27"
+																		value="2022-01-01" max="2023-07-16" />
+																</div>
+																<div class="form-group">
+																	<button id="comp-jbr-btn"
+																		class="btn-primary search_results-btn"
+																		type="submit">
+																		<i
+																			class="fa fa-search search-btn-project"></i>Search
+																	</button>
+																</div>
+															</div>
+
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+									<div id="social_placeholder">
+									</div>
+								</div>
+							</div>
+					</section>
+				</div>
+			</section>
+			<div id="page_footer">
+			</div>
+		</main>
+		<script src="https://kit.fontawesome.com/6d2ea823d0.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/com_elements.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/metaData.js"></script>
+		<!-- <script src="js/pjv.js"></script> -->
+		<script src="js/projects.js"></script>
+	</body>
+</html>
