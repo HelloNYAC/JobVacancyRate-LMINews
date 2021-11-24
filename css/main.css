@@ -1,3 +1,40 @@
+.home_quotes {
+  margin-top: 30px;
+}
+
+#wb-cont {
+  margin-bottom: 20px;
+}
+
+.collapsible {
+  background-color: #f8f6f6;
+  color: #666161;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.checkmark {
+  margin-right: 15px;
+  font-weight: 3em;
+}
+
 #navbar {
   margin-top: 20px;
   margin-bottom: 10px;
@@ -303,5 +340,6 @@ body {
   display: block;
   text-align: center;
   margin-top: 50px;
+  font-size: x-small;
 }
 /*# sourceMappingURL=main.css.map */

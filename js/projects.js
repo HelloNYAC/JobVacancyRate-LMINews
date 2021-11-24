@@ -166,7 +166,7 @@ $(document).ready(function() {
 		}
 		console.log(data)
 
-		data = encodeURIComponent(JSON.stringify(data))
+		data = encodeURIComponent(JSON.stringify(data));
 		window.location.href = 'common/com_LMINews.html?data=' + data;
 	});
 
