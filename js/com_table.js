@@ -243,7 +243,7 @@ function renderTable(data) {
             },
             {
                 field: '-',
-                title: 'Average Value of All Industry',
+                title: 'Total Value of All Industry',
                 width:'200px',
                 formatter: function(value, row, index) {
 
@@ -254,7 +254,7 @@ function renderTable(data) {
             },
             {
                 field: '-',
-                title: 'Average Value of Across the Country',
+                title: 'Total Value of Across the Country',
                 width:'200px',
                 formatter: function(value, row, index) {
 
