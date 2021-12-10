@@ -7,14 +7,14 @@ $(document).ready(function() {
 	// $.each(provinces, function(i, d) {
 	// 	$('.pt-select-details').append('<option>' + provinces[i][1] + '</option>');
 	// });
-	// $('.nacis-select-details').append(`<option value="-1"> all</option>`);
+	// $('.nacis-select-details').append('<option value="-1"> all</option>');
 	for (let key in naics) {
-		$('.nacis-select-details').append(`<option value="${key}"> ${naics[key]}</option>`);
+		$('.nacis-select-details').append('<option value="${key}"> ${naics[key]}</option>');
 	}
-	// $('.pt-select-details').append(`<option value="-1"> all</option>`);
-	// $('.pt-select-details').append(`<option value="">all industrial</option>`);
+	// $('.pt-select-details').append('<option value="-1"> all</option>');
+	// $('.pt-select-details').append('<option value="">all industrial</option>');
 	for (let key in provinces) {
-		$('.pt-select-details').append(`<option value="${key}">${provinces[key]}</option>`);
+		$('.pt-select-details').append('<option value="${key}">${provinces[key]}</option>');
 	}
 
 
@@ -98,8 +98,8 @@ $(document).ready(function() {
 		var nextYear = parseInt(year)+1
 		$(this).parent().addClass('active')
 		console.log('year='+year)
-		$('.vacancyRate .startRefPeriod').val(`${year}-01-01`)
-		$('.vacancyRate .endReferencePeriod').val(`${year}-12-31`)
+		$('.vacancyRate .startRefPeriod').val('${year}-01-01')
+		$('.vacancyRate .endReferencePeriod').val('${year}-12-31')
 	})
 	
 	$('.marketNews input[name="year"]').click(function(){
@@ -110,8 +110,8 @@ $(document).ready(function() {
 		var nextYear = parseInt(year)+1
 		$(this).parent().addClass('active')
 		console.log('year='+year)
-		$('.marketNews .startRefPeriod').val(`${year}-01-01`)
-		$('.marketNews .endReferencePeriod').val(`${year}-12-31`)
+		$('.marketNews .startRefPeriod').val('${year}-01-01')
+		$('.marketNews .endReferencePeriod').val('${year}-12-31')
 	})
 	
 	$('#jbvr-industry-btn').on('click', function() {
